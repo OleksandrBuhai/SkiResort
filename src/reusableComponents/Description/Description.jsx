@@ -19,7 +19,7 @@ export default function Description() {
     <div className='background'>
       <div className='contentProductContainer'>
         <div className='back-link'>
-          <Link to='/main' style={{ cursor: 'pointer' }}>
+          <Link to='/' style={{ cursor: 'pointer' }}>
             <svg
               width="24"
               height="24"

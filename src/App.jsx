@@ -15,7 +15,7 @@ function App() {
     <>
       <Header/>
       <Routes>
-        <Route path='/main' element={<Main />} />
+        <Route path='/' element={<Main />} />
         <Route path='/description' element={<ProductDescription />} />
       </Routes>
       <Footer />
