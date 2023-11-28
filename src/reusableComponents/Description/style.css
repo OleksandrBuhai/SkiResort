@@ -1,0 +1,51 @@
+
+.background {
+    background-color: white;
+    padding: 2rem;
+    color: black;
+  }
+  
+  .contentProductContainer {
+    height: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .imgProductContainer {
+    flex: 2;
+  }
+  
+  .imgProductContainer img {
+    margin: 10rem;
+    height: 20rem;
+    width: 20rem;
+  }
+  
+  .textProductContainer {
+    padding: 5rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .date-picker-wrapper {
+    display: inline-block;
+  }
+  
+  .date-picker-calendar {
+    position: absolute;
+    left: 0rem;
+    top: 100%;
+    z-index: 9999;
+  }
+  
+  .back-link {
+    position: absolute;
+    top: 0px;
+left: 0;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  

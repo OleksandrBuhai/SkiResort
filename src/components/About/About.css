@@ -1,0 +1,43 @@
+
+
+.background {
+   
+    background-color: white;
+    padding: 2rem;
+    color: black;
+  
+ 
+}
+
+.contentContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgContainer {
+    flex: 2;
+}
+
+.textContainer {
+    padding: 5rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .contentContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .imgContainer {
+        flex: 2;
+    }
+    .textContainer{
+        padding: 0;
+    }
+}
+
+

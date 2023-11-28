@@ -1,0 +1,53 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: transparent; 
+    text-decoration: none;
+  
+}
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    
+    padding-right: 10vh;
+}
+
+.navMenu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: blue;
+}
+
+.navMenu:hover li{
+    filter: blur(5px);
+}
+
+
+
+.active {
+    cursor: pointer;
+    color: blue;
+    filter: blur(0px);
+}
+
+.navMenu>li {
+    display: block;
+    transition: .5s;
+}
+
+.navMenu>li:hover {
+    cursor: pointer;
+    color: #EE6D52;
+    filter: blur(0px);
+}

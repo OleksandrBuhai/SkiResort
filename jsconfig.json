@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "baseUrl": "/main",
+      "paths": {
+        "@/*": ["./src/*", "./dist/*", ""],
+        "pages/*": ["src/pages/*"],
+        "components/*": ["src/components/*"],
+        "assets/*":["src/assets/*"],
+        "reduxStore/*":["src/reduxStore"],
+        "reusableComponents/*":["src/reusableComponents"]
+      }
+    }
+  }

@@ -1,0 +1,48 @@
+.eventContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    transition: 0.25s ease-in;
+}
+
+.eventTextContainer {
+    width: 80%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #eee;
+    gap: 10rem;
+}
+
+.eventContainer:hover {
+    transform: scale(1.1);
+}
+
+.eventText {
+    padding: 2rem;
+}
+
+
+.eventText p {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+.eventTextContainer img {
+    width: 15rem;
+
+}
+
+.custom-link {
+    
+    color: blue;
+    text-decoration: none; 
+}
+
+.custom-link:hover {
+    color: red; 
+}
